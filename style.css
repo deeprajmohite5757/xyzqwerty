@@ -1,0 +1,247 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: rgb(38 31 76);
+  height: 90px;
+  margin-top: 10px;
+}
+
+.article-heading {
+  /* margin-left: 10px; */
+  color: #261f4c;
+  font-size: 150%;
+  vertical-align: top;
+}
+
+.title {
+  font-size: 190%;
+}
+
+.subtitle {
+  font-size: 100%;
+}
+
+.center {
+  text-align: center;
+  width: 20%;
+  margin-left: 40%;
+  height: 50%;
+  padding: 10px;
+  margin-top: -4%;
+}
+
+.logo {
+  border: 3px solid #bb1f1f;
+  background: #ffffff;
+  margin-top: 10px;
+}
+
+.category {
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+select {
+  margin-left: 0px;
+  margin-top: 7px;
+  height: 25px;
+  width: 15%;
+}
+
+.subscribe {
+  margin-top: -50px;
+  float: right;
+}
+
+#submit {
+  background-color: black;
+  color: white;
+  height: 25px;
+}
+
+#email {
+  margin-top: 7px;
+  height: 20px;
+}
+
+img {
+  vertical-align: top;
+  width: 30%;
+}
+
+a {
+  margin-top: 10%;
+}
+
+article {
+  margin-top: 1%;
+}
+
+.btn {
+  background-color: #c34040;
+  font: icon;
+  border: 0;
+  color: white;
+  padding: 1% 1%;
+  margin-left: 31.4%;
+}
+
+.artile-end-line {
+  margin-top: 2%;
+}
+
+footer {
+  background-color: #261f4c;
+  margin-top: 3%;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.article-content {
+  margin-left: 31.4%;
+}
+.article-deatils {
+  margin-left: 31.4%;
+  margin-top: -19%;
+  font-size: 64%;
+}
+
+@media screen and (max-width: 768px) {
+  .center {
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 10px;
+  }
+  img {
+    margin-top: 7%;
+    margin-left: 33.5%;
+    width: 35%;
+  }
+  .article-deatils {
+    margin-top: 2%;
+    margin-left: 3.4%;
+  }
+  .article-content {
+    margin-left: 2.4%;
+    margin-top: -12px;
+    font-size: 120%;
+  }
+  .article-heading {
+    margin-left: -28%;
+    font-size: 150%;
+    padding: 10px 10px;
+  }
+  .btn {
+    margin-left: 3%;
+    margin-top: -2%;
+    padding: 10px 10px;
+  }
+}
+
+@media screen and (min-width: 375px) {
+  .sidebar {
+    display: none;
+  }
+  .content {
+    display: none;
+  }
+}
+@media screen and (max-width: 375px) {
+  select {
+    width: 45%;
+  }
+  .subscribe {
+    display: none;
+  }
+  .category {
+    display: none;
+  }
+  .title {
+    font-size: 135%;
+  }
+  .subtitle {
+    font-size: 75%;
+  }
+  .center {
+    margin-left: 6%;
+    width: 80%;
+    margin-top: 10px;
+  }
+  label {
+    font-size: 10px;
+  }
+  #email {
+    width: 104px;
+  }
+  #submit {
+    width: 75px;
+  }
+  .article-heading {
+    padding: 10px 10px;
+    margin-left: 36%;
+    font-size: 100%;
+  }
+  .article-deatils {
+    margin-top: 2%;
+    margin-left: 3.4%;
+  }
+  .article-content {
+    margin-left: 2.4%;
+    margin-top: -12px;
+    font-size: 70%;
+  }
+  button {
+    margin-left: 3%;
+    margin-top: -2%;
+    padding: 1px 1px;
+  }
+  img {
+    margin-top: 1%;
+    margin-left: 33.5%;
+    width: 112px;
+    height: 125px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .article-content {
+    margin-left: 19.4%;
+    width: 60%;
+  }
+  img {
+    width: 18%;
+  }
+  .article-deatils {
+    margin-left: 19.4%;
+    margin-top: -11%;
+    font-size: 90%;
+  }
+  .btn {
+    margin-left: 19.4%;
+  }
+}
+
+body {
+  margin: 0;
+}
+.container {
+  display: flex;
+}
+.sidebar {
+  background: #ccc;
+  transition: all 0.1s;
+  width: 100%;
+}
+.sidebar.collapsed {
+  transform: translateX(-100%);
+  position: absolute;
+}
+.icon {
+  width: 25px;
+  height: 3px;
+  background-color: black;
+  margin: 3px 0;
+}
