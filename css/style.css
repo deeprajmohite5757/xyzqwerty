@@ -1,0 +1,171 @@
+#header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  height: 4rem;
+  box-shadow: 0 5px 10px rgb(0 0 0/10%);
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 3rem;
+  box-shadow: 0 5px 10px rgb(0 0 0/10%);
+  display: flex;
+  justify-content: center;
+  background-color: black;
+}
+
+#input {
+  position: fixed;
+  top: 15px;
+  left: 30%;
+  width: 25%;
+  height: 26px;
+  border: black;
+}
+
+#search-icon {
+  top: 14px;
+  left: 55.8%;
+  width: 31px;
+  height: 29px;
+}
+#search-button {
+  position: fixed;
+  top: 14px;
+  left: 55%;
+  width: 47px;
+  height: 30px;
+}
+
+#youtube-icon {
+  position: fixed;
+  left: 0;
+  height: 48px;
+  width: 65px;
+  top: 6px;
+  background: black;
+}
+
+#title {
+  color: white;
+  position: fixed;
+  top: 6px;
+  left: 74px;
+  font-size: 43px;
+}
+
+#footerContent {
+  color: white;
+  font-size: 21px;
+  margin-top: 0.75rem;
+}
+
+#thumbnailsBox {
+  flex: auto;
+  margin-left: 1em;
+  box-shadow: 0 0px 21px rgb(128 99 99);
+  border-color: gray;
+  border-style: solid;
+  border-width: 0.1rem;
+  line-height: 1.2rem;
+  cursor: pointer;
+}
+
+#thumbnailsContainer {
+  display: flex;
+  flex-basis: auto;
+  margin-top: 5rem;
+  width: min-content;
+}
+
+.page-buttons:hover {
+  background-color: #d6f3f2;
+  color: red;
+}
+
+.page-buttons {
+  padding: 10px 10px;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  margin-left: 2px;
+  border-radius: 2px;
+}
+
+#paginationDiv {
+  text-align-last: center;
+  margin-top: 35px;
+}
+
+.pagenumbers:hover {
+  background-color: #ccf5f4;
+}
+
+.active {
+  background-color: #ee4444;
+  /* box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.2); */
+  color: red;
+}
+
+.pagenumbers {
+  margin-left: 5px;
+  cursor: pointer;
+  background-color: #ffffff;
+}
+
+#pagination {
+  text-align: center;
+  padding: 10px 10px;
+}
+
+#titleDiv {
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+#channelTitleDiv {
+  font-size: 75%;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#dateDiv {
+  font-size: 75%;
+  line-height: normal;
+  font-variant: all-petite-caps;
+  margin-left: 5px;
+}
+
+#viewsDiv {
+  font-size: 75%;
+  line-height: normal;
+  margin-left: 5px;
+}
+
+#descriptionDiv {
+  font-size: 75%;
+  line-height: normal;
+  margin-left: 5px;
+  padding: 3px;
+}
+
+@media screen and (max-width: 812px) {
+  #input {
+    position: absolute;
+    left: 66%;
+  }
+  #search-button {
+    position: absolute;
+    left: 92%;
+  }
+  #pagination {
+    margin-bottom: 40px;
+  }
+}
